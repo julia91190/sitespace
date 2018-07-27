@@ -5,12 +5,15 @@ background-color: darkmagenta;
 h1{
 color: navy;
 font-size: 100px;
+font-family: cursive;
 text-align: center;
 text-decoration: underline;
 }
 
 h1:hover{
  color: teal;
+ font-style: italic;
+ text-shadow: 5px 5px palegoldenrod;
 }
 
 .header{
@@ -125,7 +128,7 @@ margin:auto;
 .container{
   width: 960px;
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
 table{
   border-collapse: collapse;
@@ -148,4 +151,30 @@ h3:hover{
 }
 .illustration{
   color: lightskyblue;
+}
+
+.video{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+h4{
+  font-size: 40px;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+h4:hover{
+  color: gold;
+  font-style: italic;
+  text-shadow: 5px 5px #558ABB;
+}
+
+.dialogue {
+  margin-left: 1000px;
+  margin-bottom: : 1000px;
+}
+
+.icone{
+  list-style-image: url('https://media.giphy.com/media/2blmehMgQbBRK/giphy-downsized.gif');
 }
